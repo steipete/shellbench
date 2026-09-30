@@ -4,6 +4,7 @@
 
 ### Fixed
 
+- Refresh the dashboard and browser runtimes through Gradio 6.29.0 and Playwright 1.63.0, align the MLflow client and deployment on 3.16.1, and update NumPy, Ruff, and the Hugging Face mirror dependencies.
 - Stop all partially started background services on startup failure or cancellation and close parent log handles after spawning.
 - Isolate worker configuration test directories so concurrent test runs cannot delete one another's fixtures.
 - Refresh bundled Chromium through Playwright 1.62.1, align the Kubernetes MLflow server with client 3.15.2, and require Pydantic 2.13.5 bug fixes.
