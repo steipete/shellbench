@@ -4,6 +4,7 @@
 
 ### Fixed
 
+- Refresh WebSockets, dataset and dashboard runtimes, bundled Chromium through Playwright 1.63.0, NumPy, Ruff, and the Hugging Face mirror dependencies; preserve Python 3.11 support and synchronize adopted-run capacity tests.
 - Stop all partially started background services on startup failure or cancellation and close parent log handles after spawning.
 - Isolate worker configuration test directories so concurrent test runs cannot delete one another's fixtures.
 - Refresh bundled Chromium through Playwright 1.62.1, align the Kubernetes MLflow server with client 3.15.2, and require Pydantic 2.13.5 bug fixes.
